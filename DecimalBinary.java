@@ -55,7 +55,7 @@ public class DecimalBinary extends JFrame {
         double[] randomNumbers = new double[numberOfNumbers];
 
         for (int i = 0; i < numberOfNumbers; i++) {
-            double randomNumber = random.nextDouble() * 200.0; // Generate a random number between 0 and 1000
+            double randomNumber = random.nextDouble() * 200.0; // Generate a random number between 0 and 200
             randomNumber = Math.round(randomNumber * 1000.0) / 1000.0; // Round to three decimal points
             randomNumbers[i] = randomNumber;
         }
@@ -70,7 +70,7 @@ public class DecimalBinary extends JFrame {
         StringBuilder binary = new StringBuilder();
         binary.append(Long.toBinaryString(wholePart)).append('.');
 
-        for (int i = 0; i < 2; i++) { // Convert up to five decimal places (nibbles)
+        for (int i = 0; i < 2; i++) { // Convert up to two decimal places (nibbles)
             fractionalPart *= 2;
             long bit = (long) fractionalPart;
             binary.append(bit);
