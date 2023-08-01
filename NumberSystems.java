@@ -5,10 +5,7 @@
  */
 package numbersystems;
 
-/**
- *
- * @author g.k
- */
+
 public class NumberSystems {
 
     /**
