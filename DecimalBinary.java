@@ -9,10 +9,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.text.DecimalFormat;
 import java.util.Random;
-/**
- *
- * @author g.k
- */
+
 
 public class DecimalBinary extends JFrame {
     private final JTable table;
