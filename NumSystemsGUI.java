@@ -5,10 +5,7 @@
  */
 package numbersystems;
 
-/**
- *
- * @author g.k
- */
+
 public class NumSystemsGUI extends javax.swing.JFrame {
 
     /**
